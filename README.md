@@ -8,7 +8,7 @@ More details on ...
 - <a href="https://learn.microsoft.com/en-us/dotnet/api/microsoft.mixedreality.toolkit.input.handjointutils.trygetjointpose?view=mixed-reality-toolkit-unity-2020-dotnet-2.8.0">MRTK Document (New Version) </a>  
 
 - <a href ="https://www.youtube.com/watch?v=BKJ6sjJ9oao">Youtube Basic Tutorial </a>
-
+- Note for me: HandJoints are defined as Enum. So, to be able to get the index of different values in enum (for more compact coding using loop) we need to cast the "i" which is our indexing variable to "TrackedHandJoint"
 
 # Demo
 
