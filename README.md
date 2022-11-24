@@ -1,6 +1,6 @@
 # ReadMe
 
-In this project we used MRTK Built-in packages to detect both left and right hand joints in hololens 2. <a href="https://github.com/shshjmakerspace/UnityHandTracking/blob/master/HandTracking.sln">This</a> is the main Unity script. <br />
+In this project we used MRTK Built-in packages to detect both left and right hand joints in hololens 2. <a href="https://github.com/shshjmakerspace/UnityHandTracking/blob/master/HandTracking.cs">This</a> is the main Unity script. <br />
 More details on ...
 - <a href="https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/Input/HandTracking.html">MRTK Document (Old Version) </a>  
 
