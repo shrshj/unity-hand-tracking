@@ -46,20 +46,15 @@ public class HandTracking : MonoBehaviour
         for (int i = 0; i < n; i++)
         {
 
-
-            if (HandJointUtils.TryGetJointPose((TrackedHandJoint)i, Handedness.Right, out pose))
+            TrackedHandJoint joint_index = (TrackedHandJoint)i + 1;
+            if (HandJointUtils.TryGetJointPose(joint_index, Handedness.Right, out pose))
             {
                 RightHand[i].GetComponent<Renderer>().enabled = true;
                 RightHand[i].transform.position = pose.Position;
             }
-        }
+ 
 
-
-        for (int i = 0; i < n; i++)
-        {
-
-
-            if (HandJointUtils.TryGetJointPose((TrackedHandJoint)i, Handedness.Left, out pose))
+            if (HandJointUtils.TryGetJointPose(joint_index, Handedness.Left, out pose))
             {
                 LeftHand[i].GetComponent<Renderer>().enabled = true;
                 LeftHand[i].transform.position = pose.Position;
