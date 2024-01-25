@@ -11,4 +11,4 @@ In this project, we utilized the MRTK (Mixed Reality Toolkit) Built-in packages 
 
 # Demo
 
-<img src="https://github.com/shshjmakerspace/UnityHandTracking/blob/master/Demo.gif" width="700"/>
+<img src="media/demo.gif" width="700"/>
